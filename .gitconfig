@@ -1,0 +1,13 @@
+[color]
+diff = auto
+status = auto
+branch = auto
+log = auto
+[user]
+name = fredomhu
+email = fredomhu@gmail.com
+[alias]
+co = checkout
+ci = commit
+st = status
+br = branch
