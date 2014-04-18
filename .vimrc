@@ -28,9 +28,24 @@ set expandtab
 " 打开光标的行列位置显示功能
 set ruler
 
+" 设置字体
+"set guifont=Monaco\12
+
+" 设置背景颜色
+set background=dark
+
+" 设置256色
+set t_Co=256
+
 " Vundle
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+
+"colorscheme desert256
+"colorscheme codeschool
+"colorscheme solarized
+"colorscheme molokai
+"colorscheme distinguished
 
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle'
@@ -45,6 +60,7 @@ Bundle 'majutsushi/tagbar'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'marijnh/tern_for_vim'
 Bundle 'scrooloose/syntastic'
+Bundle 'flazz/vim-colorschemes'
 
 " vim-scripts repos
 "Bundle 'taglist.vim'
